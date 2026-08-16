@@ -1,0 +1,13 @@
+[settings]
+agent_id = "Quax/Swishy/v1.4"
+name = "Swishy"
+loadout_file = "loadout.toml"
+root_dir = "."
+run_command = "cmd /C run.bat"
+
+[details]
+description = "Hoops bot. You've heard of Squishy, now get ready for Swishy."
+developer = "Quax"
+language = "C++"
+tags = ["1v1", "2v2", "hoops", "teamplay"]
+fun_fact = "Loves backboard air dribble pinches."

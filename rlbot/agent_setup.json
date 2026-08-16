@@ -1,0 +1,32 @@
+{
+    "action_delay": 7,
+    "action_parser": "DefaultAction",
+    "agent_name": "Swishy",
+    "ball_pred_tick_rate": 0.0,
+    "car_config": "Octane",
+    "game_mode": 1,
+    "max_team_size": 2,
+    "obs_builder": "SwishyObs",
+    "policy": {
+        "activation_type": 0,
+        "add_layer_norm": true,
+        "add_output_layer": true,
+        "layer_sizes": [
+            512,
+            512,
+            256,
+            256
+        ]
+    },
+    "shared_head": {
+        "activation_type": 0,
+        "add_layer_norm": true,
+        "add_output_layer": false,
+        "layer_sizes": [
+            1024,
+            512
+        ]
+    },
+    "tick_skip": 8,
+    "use_ball_prediction": true
+}
